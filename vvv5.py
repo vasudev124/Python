@@ -1,0 +1,14 @@
+n=int(input())
+numb=n
+x=str(n)
+y=len(x)
+num=0
+arm=0
+while(n!=0):
+    num=n%10
+    arm+=(num**y)
+    n=n//10
+if(arm==numb):
+    print("YES")
+else:
+    print("NO")

@@ -1,0 +1,11 @@
+n=int(input())
+odds=0
+evens=0
+while(n!=0):
+    d=n%10
+    if(d%2==0):
+        evens=evens+1
+    else:
+        odds=odds+1
+    n=n//10
+print(evens,odds)
